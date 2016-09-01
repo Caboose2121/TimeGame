@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Persistent\GUINav.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Persistent\GUINav.cs" Line="194" Column="29" />
+      <File FileName="Assets\Scripts\Enums.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Persistent\GameVariables.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Persistent\GameControl.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
