@@ -11,10 +11,6 @@ public class FirstPersonController : MonoBehaviour
     float verticalVelocity = 0;
 	public bool jumping = false;
     CharacterController characterController;
-
-	public Animator anim;
-	public PlayerHashIDs tags;
-
 	void Start ()
     {
         characterController = GetComponent<CharacterController>();
@@ -57,21 +53,20 @@ public class FirstPersonController : MonoBehaviour
 		if (!characterController.isGrounded) 
 		{
 			verticalVelocity += Physics.gravity.y * Time.deltaTime;
-			if (anim.GetBool (tags.jumpBool) == true)
-				anim.SetBool (tags.jumpBool, false);
 		}
         if (characterController.isGrounded && Input.GetButtonDown("Jump"))
         {
             verticalVelocity = jumpSpeed;
 			jumping = true;
-			if (anim.GetBool (tags.jumpBool) == false)
-				anim.SetBool (tags.jumpBool, true);
         }	
 
 		else
 		{
 			jumping = false;
-		}		
+		}
+
+
+
 	
         characterController.Move(speed * Time.deltaTime);
     }
